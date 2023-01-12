@@ -1,0 +1,5 @@
+GET http://localhost:1337/api/blog-posts
+Authorization: bearer 7d0f302e2acf6ee3aa6ffe90d7c0149bf46570086ca7a3e4d51ce38d825a3ab8d0d35f688d4ae7eca7cdbc80092bb8c291b7ed145e93c5d46a46c019ee29b8dc28ec20842862fb13d7b348fd662488fd9b98886a48dfaa7cf2865cfc9bfec79b972587dd92a795f9b10a0262f9082a9c14a72ba79395714aa67aaf73c7f5c937
+Accept: application/json
+
+###

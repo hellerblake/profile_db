@@ -2,8 +2,10 @@ module.exports = {
   apps: [
     {
       name: 'app',
-      script: 'pnpm',
-      args: 'start',
+      script: 'server.js',
+      instances: 1,
+      autorestart: true,
+      watch: false,
     },
   ],
 };

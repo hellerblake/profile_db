@@ -14,6 +14,7 @@ jobs:
        API_TOKEN_SALT: ${{secrets.TOKEN_SALT}}
        ADMIN_JWT_SECRET: ${{secrets.ADMIN_JWT_SECRET}}
        JWT_SECRET: ${{secrets.JWT_SECRET}}
+       DB_PATH: ${{secrets.DB_PATH}}
     steps:
       - uses: actions/checkout@v3
       - run: pnpm i

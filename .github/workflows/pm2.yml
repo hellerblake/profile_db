@@ -17,6 +17,7 @@ jobs:
        DB_PATH: ${{secrets.DB_PATH}}
        DATABASE_PASSWORD: ${{secrets.DATABASE_PASSWORD}}
        DATABASE_NAME: ${{secrets.DATABASE_NAME}}
+       URL: ${{secrets.API_URL}}
     steps:
       - uses: actions/checkout@v3
       - run: pnpm i

@@ -20,7 +20,7 @@ jobs:
        URL: ${{secrets.API_URL}}
     steps:
       - uses: actions/checkout@v3
-      - run: pnpm i -r --prod --shamefully-hoist
+      - run: pnpm i
       - run: pnpm run build
       - name: Stop pm2 process if running
         continue-on-error: true
